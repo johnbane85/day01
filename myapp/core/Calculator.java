@@ -6,7 +6,7 @@ public class Calculator {
   
   public static void main(String[] args) {
     
-    float result = 0;
+    float result = 0f; // float
     Console cons = System.console();
     
     String operand1 = cons.readLine("Enter your first operand:\n");
